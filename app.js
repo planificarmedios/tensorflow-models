@@ -13,7 +13,7 @@
    async function setupUSBStream() {
     try {
         const devices = await navigator.mediaDevices.enumerateDevices();
-        
+        console.log ("devices", devices)
 
         devices.forEach((device) => {
             if (device.kind === "videoinput") {
