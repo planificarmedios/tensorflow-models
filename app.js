@@ -109,7 +109,7 @@
            await predict(); // Perform prediction
            frameCounter = 0; // Reset the counter after prediction
        }
-       setTimeout(loop, 1000);
+       setTimeout(loop, 150);
      }
 
      async function loop2() {
@@ -122,7 +122,7 @@
           await predict2(); // Perform prediction
           frameCounter2 = 0; // Reset the counter after prediction
       }
-      setTimeout(loop2, 1000);
+      setTimeout(loop2, 150);
     }
 
 
